@@ -619,3 +619,30 @@ textarea:focus {
         line-height: 1.4;
     }
 }
+
+/* Additional responsive fixes for the contact form */
+@media (max-width: 480px) {
+    .contact-form {
+        grid-template-columns: 1fr;
+        gap: 15px; /* Reduce gap for smaller screens */
+    }
+
+    .form-group label {
+        font-size: 0.8rem; /* Adjust label size */
+    }
+
+    input,
+    select,
+    textarea {
+        padding: 12px; /* Adjust padding for smaller screens */
+        font-size: 0.9rem; /* Adjust font size */
+    }
+
+    .form-actions {
+        text-align: center; /* Center align the submit button */
+    }
+
+    .privacy-notice {
+        font-size: 0.75rem; /* Smaller font for privacy notice */
+    }
+}
