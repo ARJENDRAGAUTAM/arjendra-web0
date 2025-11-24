@@ -606,6 +606,7 @@ textarea:focus {
 
     .contact-form {
         grid-template-columns: 1fr;
+        gap: 20px; /* Adjust gap for medium screens */
     }
 
     .full-width {
@@ -620,7 +621,29 @@ textarea:focus {
     }
 }
 
-/* Additional responsive fixes for the contact form */
+/* Enhanced responsive styles for the contact form */
+@media (max-width: 768px) {
+    .contact-form {
+        grid-template-columns: 1fr;
+        gap: 20px; /* Adjust gap for medium screens */
+    }
+
+    .form-group label {
+        font-size: 0.85rem; /* Slightly larger label size */
+    }
+
+    input,
+    select,
+    textarea {
+        padding: 14px; /* Maintain consistent padding */
+        font-size: 1rem; /* Slightly larger font size */
+    }
+
+    .form-actions {
+        text-align: center; /* Center align the submit button */
+    }
+}
+
 @media (max-width: 480px) {
     .contact-form {
         grid-template-columns: 1fr;
