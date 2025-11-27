@@ -1,0 +1,9 @@
+{
+    "name": "Test User",
+    "company": "Test Company",
+    "service": "General",
+    "email": "test@example.com",
+    "phone": "1234567890",
+    "message": "This is a test message from verification.",
+    "consent": true
+}
